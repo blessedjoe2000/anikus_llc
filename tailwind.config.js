@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        satisfy: ["Satisfy", "Allura", "sans-serif"],
+        allura: ["Allura", "Satisfy", "sans-serif"],
+        kaushan: ["Kaushan", "Allura", "sans-serif"],
+        bangers: ["Bangers", "Roboto", "sans-serif"],
       },
     },
   },
