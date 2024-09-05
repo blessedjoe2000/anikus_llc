@@ -9,14 +9,13 @@ module.exports = {
     extend: {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
-        satisfy: ["Satisfy", "Allura", "sans-serif"],
-        allura: ["Allura", "Satisfy", "sans-serif"],
-        kaushan: ["Kaushan", "Allura", "sans-serif"],
-        bangers: ["Bangers", "Roboto", "sans-serif"],
+        outfit: ["Outfit", "Roboto", "sans-serif"],
+        mukta: ["Mukta", "Roboto", "sans-serif"],
       },
       colors: {
         "light-green": "#d1e4dd",
         "mid-green": "#d8ffea",
+        green: "#057538",
         "dark-green": "#3edf6a",
         "black-green": "#012311",
         cream: "#E2E2B6",

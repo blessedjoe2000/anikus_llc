@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import web from "/public/images/web.jpg";
 import aichatbot from "/public/images/ai-chatbot.jpg";
 import cybersecurity from "/public/images/cybersecurity.jpg";
