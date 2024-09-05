@@ -3,6 +3,7 @@ import React from "react";
 import web from "/public/images/web.jpg";
 import aichatbot from "/public/images/ai-chatbot.jpg";
 import cybersecurity from "/public/images/cybersecurity.jpg";
+import Testimonies from "../component/Testimonies/Testimonies";
 
 export default function about() {
   return (
@@ -94,10 +95,12 @@ export default function about() {
         </div>
       </div>
 
-      <div>
+      <div className="py-10 bg-mid-green my-5">
         <h2>Testimonies</h2>
 
-        <div></div>
+        <div>
+          <Testimonies />
+        </div>
       </div>
     </div>
   );
