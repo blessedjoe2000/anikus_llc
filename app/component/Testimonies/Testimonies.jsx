@@ -56,16 +56,16 @@ export default function Testimonies() {
     };
 
     // Add event listeners
-    gliderRef.current.addEventListener("mouseover", handleMouseOver);
-    gliderRef.current.addEventListener("mouseout", handleMouseOut);
-    gliderRef.current.addEventListener("click", handleInteraction);
+    gliderRef.current?.addEventListener("mouseover", handleMouseOver);
+    gliderRef.current?.addEventListener("mouseout", handleMouseOut);
+    gliderRef.current?.addEventListener("click", handleInteraction);
 
     // Cleanup event listeners and interval on unmount
     return () => {
       clearInterval(intervalRef.current);
-      gliderRef.current.removeEventListener("mouseover", handleMouseOver);
-      gliderRef.current.removeEventListener("mouseout", handleMouseOut);
-      gliderRef.current.removeEventListener("click", handleInteraction);
+      gliderRef.current?.removeEventListener("mouseover", handleMouseOver);
+      gliderRef.current?.removeEventListener("mouseout", handleMouseOut);
+      gliderRef.current?.removeEventListener("click", handleInteraction);
     };
   }, []);
 
