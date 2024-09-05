@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <nav className="flex justify-between items-center bg-black text-white px-20 p-4 gap-10">
+    <nav className="flex justify-between items-center bg-black-green text-white px-20 p-4 gap-10">
       <Link href="/" className=" font-roboto text-xl font-bold">
         Anikus LLC
       </Link>

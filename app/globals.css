@@ -16,10 +16,19 @@ h1 {
   font-size: x-large;
   font-family: Bangers, Helvetica;
   text-align: center;
+  color: #057538;
 }
 
 h2 {
   font-size: x-large;
   font-family: Bangers, Helvetica;
   text-align: center;
+  color: #057538;
+}
+
+h3 {
+  font-size: large;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #057538;
 }
