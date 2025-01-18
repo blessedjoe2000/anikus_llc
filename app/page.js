@@ -6,12 +6,14 @@ export default function Home() {
   return (
     <Container className="">
       <div>
-        <h1 className=" mx-5 sm:mx-10 sm:pt-20 sm:pb-5 pt-10 pb-0 lg:text-6xl md:text-4xl sm:text-2xl font-bold">
+        <h1 className=" mx-5 sm:mx-10 pt-20 sm:pb-5 pb-0 lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl font-bold">
           We are Anikus LLC - Your Trusted Ally in IT Consulting
         </h1>
         <Banner />
-        <div className="p-5 my-10 text-lg">
-          <h2 className="py-5 text-4xl">Discover about our services</h2>
+        <div className="p-5 sm:my-10 my-5 sm:text-lg">
+          <h2 className="py-5 lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl">
+            Discover about our services
+          </h2>
           <p>
             Anikus LLC is a trusted provider of web development, AI chatbot, and
             cybersecurity services across the United States. We blend the

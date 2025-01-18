@@ -12,5 +12,6 @@ export const AddressContainer = styled(Box)`
 
   @media (min-width: 640px) {
     flex-direction: row;
+    margin: 0;
   }
 `;

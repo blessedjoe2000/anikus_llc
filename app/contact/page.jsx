@@ -2,7 +2,7 @@
 
 import React from "react";
 import ContactForm from "../component/ContactForm/ContactForm";
-import { Box, color, Container } from "@mui/system";
+import { Box, Container } from "@mui/system";
 import { AddressContainer } from "./styles";
 import PhoneIphoneOutlinedIcon from "@mui/icons-material/PhoneIphoneOutlined";
 import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
@@ -10,11 +10,11 @@ import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 
 export default function contact() {
   return (
-    <Container className="my-20">
-      <h1 className="text-4xl">Contact Us</h1>
+    <Container className="my-20 mb-10">
+      <h1 className="sm:text-4xl text-3xl">Contact Us</h1>
 
       <AddressContainer>
-        <div className=" py-5 px-10 sm:mb-0 mb-2">
+        <div className=" sm:py-5 py-0 px-10 sm:mb-0 mb-2">
           <div className="flex gap-2 items-center pb-3">
             <Box sx={{ color: "#057538" }}>
               <PhoneIphoneOutlinedIcon />
