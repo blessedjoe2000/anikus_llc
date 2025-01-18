@@ -82,16 +82,16 @@ export default function Banner() {
   ];
 
   return (
-    <div>
+    <div className="mb-10 ">
       <div className="glider-contain">
         <div ref={gliderRef} className="glider">
           {listOfTestimonies.map((testimony, index) => (
             <div key={index} className="text-center p-4">
-              <p className="font-bold font-mukta text-3xl ">
+              <p className="font-bold font-mukta text-5xl ">
                 {testimony.heading}
               </p>
               <div className="border-2 border-green lg:mx-60 md:mx-40 sm:mx-5"></div>
-              <p className="mb-2 text-lg pt-5">{testimony.comment}</p>
+              <p className="mb-2 text-xl pt-5">{testimony.comment}</p>
             </div>
           ))}
         </div>

@@ -11,6 +11,15 @@ body {
 }
 
 h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
 h2 {
   font-size: x-large;
   font-family: Outfit, Bangers, Helvetica;
@@ -31,4 +40,8 @@ textarea,
 select {
   @apply border border-gray-200 rounded-sm w-full mb-2 p-1 outline-none focus-visible:border-green;
   @apply shadow-sm;
+}
+
+.testimony-img {
+  border-radius: 100%;
 }

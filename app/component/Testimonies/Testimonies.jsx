@@ -4,11 +4,9 @@ import Glider from "glider-js";
 import "glider-js/glider.min.css";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import testimony1 from "/public/images/web.jpg";
-import testimony2 from "/public/images/ai-chatbot.jpg";
-import testimony3 from "/public/images/cybersecurity.jpg";
-import testimony4 from "/public/images/web.jpg";
-import testimony5 from "/public/images/ai-chatbot.jpg";
+import testimony1 from "/public/images/testimony1.jpg";
+import testimony2 from "/public/images/testimony2.jpg";
+import testimony3 from "/public/images/testimony3.jpg";
 
 export default function Testimonies() {
   const gliderRef = useRef(null);
@@ -92,13 +90,7 @@ export default function Testimonies() {
       name: "Emily Gustavo",
       comment:
         "Anikus LLC's web development services are top-notch! They delivered a stunning website that not only looks great but also performs flawlessly.",
-      image: testimony4,
-    },
-    {
-      name: "Conor Magee",
-      comment:
-        "From start to finish, Anikus LLC was professional, efficient, and attentive to our needs. Their digital solutions have taken our business to the next level.",
-      image: testimony5,
+      image: testimony2,
     },
   ];
 
@@ -113,7 +105,7 @@ export default function Testimonies() {
   };
   return (
     <div>
-      <div className="glider-contain">
+      <div className="glider-contain ">
         <div ref={gliderRef} className="glider">
           {listOfTestimonies.map((testimony, index) => (
             <div key={index} className="text-center p-4">
@@ -121,9 +113,9 @@ export default function Testimonies() {
               <Image
                 src={testimony.image}
                 alt={testimony.name}
-                width={200}
+                width={100}
                 height={100}
-                className="rounded-full mx-auto mb-2"
+                className="rounded-full mx-auto my-5 mb-2"
               />
               <p className="font-bold">{testimony.name}</p>
             </div>

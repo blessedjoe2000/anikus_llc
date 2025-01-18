@@ -1,16 +1,17 @@
 import Link from "next/link";
 import Banner from "./component/Banner/Banner";
+import { Container } from "@mui/system";
 
 export default function Home() {
   return (
-    <main className=" We are Anikus LLC - Your Trusted Ally in IT Consulting">
+    <Container className="">
       <div>
-        <h1 className=" mx-5 sm:mx-10 sm:pt-20 sm:pb-5 pt-10 pb-0 lg:text-5xl md:text-4xl sm:text-2xl font-bold">
+        <h1 className=" mx-5 sm:mx-10 sm:pt-20 sm:pb-5 pt-10 pb-0 lg:text-6xl md:text-4xl sm:text-2xl font-bold">
           We are Anikus LLC - Your Trusted Ally in IT Consulting
         </h1>
         <Banner />
-        <div className="p-5 my-10 bg-mid-green">
-          <h2 className="py-5">Discovery about our services</h2>
+        <div className="p-5 my-10 text-lg">
+          <h2 className="py-5 text-4xl">Discover about our services</h2>
           <p>
             Anikus LLC is a trusted provider of web development, AI chatbot, and
             cybersecurity services across the United States. We blend the
@@ -40,12 +41,12 @@ export default function Home() {
           </p>
           <Link
             href="/about"
-            className="bg-green px-5 py-2 text-white rounded-sm"
+            className="bg-green px-5 py-2 text-white rounded-sm hover:bg-darker-green"
           >
             Learn More
           </Link>
         </div>
       </div>
-    </main>
+    </Container>
   );
 }
